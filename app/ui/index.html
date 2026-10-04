@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GARY — He's Responsible for the Set Now</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">DEMOJAM 2027 // AUTONOMOUS OPERATIONS</div>
+        <h1>GARY</h1>
+        <p class="subtitle">He's responsible for the set now.</p>
+      </div>
+      <div class="rule-card">
+        <div class="rule-label">ONE RULE</div>
+        <div class="rule">NEVER DROP THE BEAT</div>
+      </div>
+    </header>
+
+    <section class="transport-panel">
+      <button id="play" class="primary">PLAY</button>
+      <button id="stop" class="secondary" disabled>STOP</button>
+      <button id="reset" class="ghost">RESET SERVICES</button>
+      <div class="transport-status">
+        <span id="transport-dot" class="dot idle"></span>
+        <span id="transport-text">TRANSPORT IDLE</span>
+      </div>
+      <div class="clock"><span id="bar">1</span>:<span id="beat">1</span></div>
+    </section>
+
+    <section class="grid">
+      <article class="gary-card">
+        <div class="gary-face" aria-hidden="true">
+          <div class="eye left"></div><div class="eye right"></div>
+          <div class="mouth"></div>
+        </div>
+        <div class="gary-copy">
+          <div class="status-line"><span>GARY STATUS</span><strong id="gary-status">ONLINE</strong></div>
+          <div class="status-line"><span>BEAT CONTINUITY</span><strong id="continuity">TRUE</strong></div>
+          <div class="status-line"><span>AI CONFIDENCE</span><strong>UNJUSTIFIED</strong></div>
+        </div>
+      </article>
+
+      <article class="event-card">
+        <div class="card-title">LIVE EVENT BUS</div>
+        <div id="event-log" class="event-log">Waiting for someone to make a poor decision.</div>
+      </article>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">AUDIBLE TOPOLOGY</div>
+          <h2>Service health is the mix.</h2>
+        </div>
+        <p>Fail a service. Its musical layer disappears. Recover it. The layer returns on the same master timeline.</p>
+      </div>
+      <div id="components" class="components"></div>
+    </section>
+
+    <footer>
+      <span>OpenShift runtime</span>
+      <span>AAP / EDA interface mocked in Phase 1</span>
+      <span>OpenShift AI agents arrive after the beat survives</span>
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

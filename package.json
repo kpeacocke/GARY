@@ -1,0 +1,14 @@
+{
+  "name": "gary-demojam",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GARY DemoJam 2027 audible-resilience MVP",
+  "main": "app/server/index.js",
+  "scripts": {
+    "start": "node app/server/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
